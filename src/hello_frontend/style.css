@@ -1,0 +1,192 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#header{
+    height: 13vh; /*10vh represents 10% of viewport height. viewport height means height of whole screen, weather it is in landscape mode in laptop or in portrait mode on phone. */
+    width: 100%; /*for width use 'vw' which means viewport width*/
+    position: fixed; /*it fixes it's position while scrolling but it makes that div comes to top & all other divs shifts its position relatively like there is nothing at that position*/
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+#logo{
+    height: 70%;
+    margin: 25px;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texts{
+    margin: 20px;
+    color: rgb(1, 1, 116);
+    display: flex;
+}
+
+.texts:hover{
+    color: rgb(9, 78, 227);
+}
+
+#contact{
+    margin-left: 160px;
+    font-weight: lighter;
+}
+
+.icon{
+    margin-left: 25px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon:hover{
+    background-color: lightblue;
+}
+
+#login{
+    display: flex;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#login:hover{
+    background-color: lightblue;
+}
+
+#try{
+    color: white;
+    margin-left: 20px;
+    background-color: rgb(24, 111, 33);
+    padding: 10px 20px;/* first 10px is for top & bottom and 20px is for left & right */
+}
+
+#try:hover{
+    background-color: rgb(9, 63, 9);
+}
+
+#fakeheader{ /* this fake header is made to fill the position left behind the header due to 'position fixed'command*/
+    height: 13vh;
+    width: 100%;
+}
+
+#page1{
+    height: 87vh;/*10% represents 10% of their parent div or main but 10vh represents 10% of total view area of website*/
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#strip{
+    height: 7%;
+    background-color: rgb(6, 6, 62);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#strip u{
+    margin-left: 20px;
+    font-weight: lighter;
+}
+
+#content{
+    width: 100%;
+    height: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#box1{
+    height: 90%;
+    width: 47%;
+}
+
+#box1 h1{
+    font-weight: 600;
+    font-size: 50px;
+    color: rgb(19, 19, 104);
+    margin: 30px 10px;
+}
+
+#box1 p{
+    font-size: x-large;
+    margin: 10px;
+    font-weight: lighter;
+    margin: 30px 10px;
+}
+
+#box2{
+    height: 90%;
+    width: 47%;
+}
+
+#box2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#bottom{
+    height: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+#btns{
+    display: flex;
+}
+
+#btn1{
+    text-align: center;
+    margin: 10px;
+    width: 23%;
+    padding: 10px 20px;
+    color: white;
+    background-color: blue;
+}
+
+#btn1:hover{
+    background-color: rgb(33, 33, 158);
+}
+
+#btn2{
+    text-align: center;
+    margin: 10px;
+    width: 23%;
+    padding: 10px 20px;
+    color: lightblue;
+    background-color: white;
+    border: 2px solid lightblue;
+}
+
+#btn2:hover{
+    background-color: lightblue;
+    color: rgb(33, 33, 158);
+    border-color:  rgb(33, 33, 158);
+}
+
+#page2{
+    height: 87vh;
+    width: 100%;
+}
